@@ -5,14 +5,14 @@ body:
 - type: input
   id: "version"
   attributes:
-    label: "Which Umbraco Engage version are you using? (Please write the *exact* version, example: 13.2.0)"
-    description: "Go to the Engage startpage and look in the top right corner"
+    label: "Which Umbraco Engage version are you using? (Please write the *exact* version, example: 17.1.0)"
+    description: "Go to the Engage startpage and look in the top right corner. Please note that versions 13.x & 16.x are currently in Security phase"
   validations:
     required: true
 - type: input
   id: "umbracoversion"
   attributes:
-    label: "Which Umbraco version are you using? (Please write the *exact* version, example: 13.5.2)"
+    label: "Which Umbraco version are you using? (Please write the *exact* version, example: 17.2.0)"
     description: "Use the help icon in the Umbraco backoffice to find the version you're using"
   validations:
     required: true
